@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Why Dataverse?</title>
+        <link rel="icon" type="image/svg+xml" href="./assets/dataverse.svg" sizes="any">
+
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!--Microsoft Clarity Heatmapping`-->
+        <script type="text/javascript">
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "k4araie3u4");
+        </script>
+
+        <style>
+
+            body
+            {
+                margin: 0px;
+                background-color: #EFEFEF;
+                font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+            }
+
+            .topic
+            {
+                width: 225px;
+                height: 150px;
+                display: inline-block;
+                margin: 3px;
+                border: black;
+                border-width: 2px;
+                border-style: solid;
+                border-radius: 10px;
+                background-color: azure;
+                cursor: pointer;
+            }
+
+            .topic-cover
+            {
+                width: 100%;
+                display: block;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            .icon-container
+            {
+                width: 50px;
+                height: 50px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            img
+            {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+
+            .topic-title
+            {
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 0px;
+                font-size: 24px;
+                height: 60px;
+                overflow: hidden;
+                max-width: 80%;
+                margin: 0 auto;
+            }
+
+            .img-header
+            {
+                width: 20%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .intro-txt
+            {
+                text-align: center;
+                font-size: 25px;
+            }
+
+            .intro-learning-resource-txt
+            {
+                text-align: center;
+                font-size: 14px;
+                margin-top: 0px;
+                margin-bottom: 3px;
+                color: #006061;
+            }
+
+            .intro-txt-container
+            {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .halfhalf
+            {
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                display: grid;
+                grid-template-areas: "left right";
+                grid-template-columns: 3fr 4fr;
+            }
+
+            .left-panel
+            {
+                grid-area: left;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                display: flex;
+                align-items: center;
+                overflow: auto;
+                justify-content: center;
+            }
+
+            .right-panel
+            {
+                grid-area: right;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+            }
+
+            .info-pane
+            {
+                display: block;
+                position: relative;
+                overflow: auto;
+                max-height: 100%;
+            }
+
+            .topic-category
+            {
+                width: 95%;
+                border-radius: 10px;
+                margin-right: auto;
+                margin-left: auto;
+                display: block;
+                position: relative;
+                border: 2px solid;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+
+            .topic-category-title
+            {
+                text-align: center;
+                display: block;
+                position: relative;
+                margin-top: 10px;
+                margin-left: 10px;
+                font-size: 25px;
+                margin-bottom: 0px;
+            }
+
+            .topics
+            {
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                padding-top: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .info-pane-title
+            {
+                text-align: center;
+                margin-top: 0px;
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+
+            .info-txt-container
+            {
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .info-txt
+            {
+                font-size: 18px;
+                text-align: left;
+                margin-top: 0px;
+            }
+
+            .info-media
+            {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .center-iframe
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="halfhalf">
+
+            <!--Left panel-->
+            <div class="left-panel">
+
+                <!--Why dataverse intro-->
+                <div id="why-dataverse-intro" class="info-pane">
+                    <div class="img-header">
+                        <img src="./assets/dataverse.svg" style="width: 100%; object-fit: contain;">
+                    </div>
+                    
+                            
+                    <h1 style="text-align: center; font-size: 50px; margin-top: 0px; margin-bottom: 10px;">Why Dataverse?</h1>
+                    <div class="intro-txt-container">
+                        <p class="intro-txt"><b>Dataverse</b> is Microsoft's low-code/no-code highly performant data service that allows you to deliver services with agility while increasing scale and efficiency.</p>
+                        <p class="intro-txt">But why should you consider using it over other Microsoft tools you're familiar with like <i>Sharepoint</i>, <i>Access</i>, and <i>SQL</i>?</p>
+                        <p class="intro-txt">Explore reasons on the right!</p>
+                        <p class="intro-learning-resource-txt" style="text-decoration:none; color: black;">Ready to get started?</p>
+                        <p class="intro-learning-resource-txt">• <a href="https://learn.microsoft.com/en-us/training/paths/get-started-cds" style="color: inherit;">Take a Dataverse training course</a></p>
+                        <p class="intro-learning-resource-txt">• <a href="https://powerapps.microsoft.com/en-us/find-a-partner" style="color: inherit;">Find a Microsoft Partner to help</a></p>
+                        <p class="intro-txt" style="text-align: center; font-size: 12px; color: gray; font-style: italic; margin-top: 25px;">Created by <a style="color: inherit;" href="https://github.com/TimHanewich">Tim Hanewich</a></p>
+                    </div>
+                </div>
+
+                <!--Role based security model-->
+                <div id="rbsm-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/9iIfiWv.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Role-Based Security Model</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Role-based security in Dataverse, part of the Microsoft Power Platform, delivers precise control over data access by assigning specific permissions to user roles. This feature enables administrators to regulate access levels, protecting sensitive information and ensuring that users have access only to the necessary data and functionality aligned with their roles. It streamlines administration by centralizing permission management and supports scalability, allowing easy adjustments to roles and permissions as organizational needs evolve.</p>
+                        <p class="info-txt">Furthermore, role-based security facilitates compliance with audit trails and monitoring while enhancing user experience by providing a clear view of authorized resources, thus optimizing data protection and user efficiency within the platform.</p>
+                        <p class="info-txt" style="text-align: center;"><a href="https://learn.microsoft.com/en-us/power-platform/admin/database-security" target="_blank">Read more about Dataverse's Robust Security Model</a></p>
+                    </div>
+                    <div class="info-media">
+                        <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHYzb3FrMW1lN3FsY3U5NnZrOGVxeWY5NGNvajNwenV0Zzhhcmt1cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/J9nTqIlCl59OsizXVY/giphy.gif">
+                    </div>
+                </div>
+
+                <!--Granular Control-->
+                <div id="gc-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/lsiBeu0.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Granular Access Control</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Dataverse empowers robust data governance by providing multifaceted security controls, enabling granular control over data access and management within the Microsoft Power Platform ecosystem.</p>
+                        <p class="info-txt"><b>Field-Level Security</b>: With field-level security, administrators can restrict access to specific fields within tables. This feature allows organizations to hide sensitive information from certain users or user roles. By customizing field-level permissions, sensitive data, such as financial details or personally identifiable information, remains concealed from unauthorized individuals..</p>
+                        <p class="info-txt"><b>Record-Level Security</b>: Dataverse offers record-level security, permitting administrators to define rules dictating which records users can view or edit. By setting up access privileges at the record level based on criteria like ownership, teams, or hierarchical relationships, organizations can ensure that users only interact with the records pertinent to their roles.</p>
+                        <p class="info-txt"><b>Environment Security</b>: Dataverse emphasizes environment security, providing controls at the environment level to manage user access, data integration, and app development. Administrators can configure permissions to control who can access specific environments, ensuring data isolation and compliance across different projects or departments.</p>
+                        <p class="info-txt" style="text-align: center;"><a href="https://learn.microsoft.com/en-us/power-platform/admin/field-level-security" target="_blank">Read more about Dataverse's Column-Level Security</a></p>
+                    </div>
+                    <div class="info-media">
+                        <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExajkyZmQxMXlqZTBveDlucGtvYmZ4dGM0eThxM3Vmb3JqY3FuN3p0aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JcKjyW82Gg8Dx5VmJI/giphy.gif">
+                    </div>
+                </div>
+
+                <!--Behind Entra ID-->
+                <div id="beid-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/ZlINaY9.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Secured Behind Azure Entra ID</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Securing Dataverse behind Azure Active Directory (Entra ID) enhances its overall security by leveraging robust authentication and access control mechanisms. By integrating with Entra ID, Dataverse inherits the advanced security features provided by Azure's identity management services.</p>
+                        <p class="info-txt">Entra ID enables centralized management of user identities and access policies, offering multi-factor authentication, single sign-on (SSO), role-based access control (RBAC), and conditional access capabilities. These features bolster Dataverse's security posture by ensuring that only authenticated and authorized users, devices, or applications can access the data stored within Dataverse environments.</p>
+                        <p class="info-txt">Moreover, Entra ID's continuous monitoring, threat detection, and identity protection functionalities add layers of security to Dataverse, detecting and mitigating potential risks in real-time. This integration not only fortifies data protection but also aligns with industry standards and compliance requirements, making Dataverse a highly secure and compliant platform for managing and safeguarding critical business data.</p>    
+                        <p class="info-txt" style="text-align: center;"><a href="https://www.microsoft.com/en-us/security/business/microsoft-entra" target="_blank">Read more Dataverse's safety behind Azure Entra ID</a></p>
+                    </div>
+                    <div class="info-media">
+                        <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3N5NXM3bWFnbzFiczBxbmx2b2ZmaHo1MGN3YmNjbnlqdzZka3k3aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qOFUOeW6BzM8sBKULq/giphy.gif">
+                    </div>
+                </div>
+
+                <!--Relational Tabular Data-->
+                <div id="rtd-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/TOG4xYT.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">An Enterprise Relational Database</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Dataverse serves as a versatile relational database within the Microsoft Power Platform, offering robust support for managing relational data structures seamlessly. Its inherent capabilities facilitate the establishment and management of relationships, including one-to-many and many-to-many relationships, fostering efficient data organization and retrieval.</p>
+                        <p class="info-txt">With Dataverse, users can establish relationships between tables through configurable relationship types. The platform enables the creation of one-to-many relationships, allowing a single record in one table to correspond to multiple records in another table. Similarly, Dataverse empowers the establishment of many-to-many relationships, enabling associations between multiple records from different tables.</p>
+                        <p class="info-txt">The built-in functionality within Dataverse simplifies the configuration of relationships, enabling users to define relationships between tables directly within the platform's interface. This functionality streamlines data management processes, supports complex data models, and enhances data consistency and integrity, making Dataverse an ideal solution for businesses requiring efficient handling of relational data structures.</p>
+                        <p class="info-txt" style="text-align: center;"><a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-entity-relationships" target="_blank">Read more about Table relationships in Dataverse</a></p>
+                    </div>
+                    <div class="info-media">
+                        <img src="https://media0.giphy.com/media/cQVxZf5yXBOQBKAkuT/giphy.gif">
+                    </div>
+                </div>
+
+                <!--Unstructured Data-->
+                <div id="ud-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/7GaW8Qd.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Unstructured Data</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Dataverse offers remarkable versatility by seamlessly integrating the storage of unstructured Binary Large Object (BLOB) data, such as files and images, directly within its structured relational database framework. This unique capability allows users to manage both structured and unstructured data effortlessly, providing a holistic storage solution within a single platform.</p>
+                        <p class="info-txt">Through its "File" and "Image" data types, Dataverse enables the storage of BLOB data alongside structured data at the column level within tables (entities). This integration empowers users to associate files, images, or other binary data directly with related records, offering a unified data management approach without the need for external storage solutions.</p>
+                        <p class="info-txt">The ability to store BLOB data within Dataverse seamlessly streamlines workflows, enabling users to access and manage both structured and unstructured data within a unified environment. This functionality not only enhances data organization but also facilitates comprehensive data analysis, making Dataverse a versatile and efficient solution for businesses seeking an integrated platform to manage diverse data types effortlessly.</p>
+                    </div>
+                    <div class="center-iframe">
+                        <iframe style="margin-left: auto; margin-right: auto;" width="560" height="315" src="https://www.youtube.com/embed/RGJrUkgh_NU?si=GyWpxpqdolqXwGE1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!--Rich Metadata-->
+                <div id="rm-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/xXMTLkj.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Rich Metadata</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Dataverse's robust metadata capabilities, including standard attributes like "Created By," "Created On," "Modified By," and "Modified On," alongside customizable metadata and table hierarchies, play a crucial role in optimizing business processes. These attributes provide essential insights into data accountability and change history, ensuring compliance and integrity within workflows.</p>
+                        <p class="info-txt">The comprehensive metadata framework extends beyond standard fields, enabling the creation of custom attributes and defining table structures and hierarchies. This flexibility empowers tailored data categorization, fostering efficient data modeling and analysis aligned with specific business needs. Dataverse's rich metadata not only facilitates meticulous data governance but also enhances data visibility, classification, and relational structures, making it an ideal enterprise database for diverse business workloads.</p>
+                        <p class="info-txt" style="text-align: center;"><a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-metadata" target="_blank">Read more about Dataverse's Rich Metadata</a></p>
+                    </div>
+                </div>
+
+                <!--Common Data model-->
+                <div id="cdm-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/AXP4Jf5.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Common Data Model</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">The common data model in Dataverse stands as a foundational pillar revolutionizing data management and interoperability. Offering a standardized framework, it streamlines data integration across diverse applications and systems, fostering seamless collaboration and efficiency. By providing a universal language for data representation, it ensures consistency, simplifies data sharing, and accelerates development cycles.</p>
+                        <p class="info-txt">The advantages are: enhanced data quality, reduced complexities in integration efforts, increased agility in adapting to evolving business needs, and empowering organizations to derive meaningful insights from their data with ease. The common data model within Dataverse not only unlocks the potential for innovation but also establishes a robust foundation for scalable, future-proof data ecosystems.</p>
+                        <p class="info-txt" style="text-align: center;"><a href="https://learn.microsoft.com/en-us/common-data-model/use" target="_blank">Read more about the Common Data Model (CDM)</a></p>
+                    </div>
+                </div>
+
+                <!--Business Rules-->
+                <div id="br-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/uwBgWIA.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Business Rules</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">The capacity to incorporate business rules within Dataverse is a game-changer, empowering organizations to enforce logic and regulations seamlessly within their data workflows. By embedding these rules directly into the platform, users gain dynamic control and automation, ensuring data integrity and compliance while streamlining operations.</p>
+                        <p class="info-txt">For instance, imagine a sales organization utilizing Dataverse. They can implement business rules dictating that any new sales entry must contain mandatory fields such as customer name, product type, and sales representative ID. Additionally, a rule could be set to automatically calculate discounts based on predefined criteria or restrict sales beyond certain thresholds without managerial approval.</p>
+                        <p class="info-txt">Moreover, in a healthcare setting, Dataverse's business rules can enforce regulatory compliance. For instance, ensuring that patient records contain mandatory fields such as name, date of birth, and specific medical history information. It can also set protocols to flag potential drug interactions or alert medical staff if a patient's vital signs exceed predefined safety limits.</p>
+                        <p class="info-txt">By integrating these business rules directly into Dataverse, organizations can maintain data consistency, enforce regulatory compliance, and automate decision-making processes, ultimately enhancing operational efficiency and ensuring data reliability across various business domains.</p>
+                        <div class="center-iframe">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/MdOwCbzDux8?si=_PWnT4RK5dbBwRmt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <!--Business Process Flows-->
+                <div id="bpf-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/VdjhCr6.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Align to Business Processes</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">In Dataverse, the feature of aligning to business processes through business process flows is a pivotal asset, empowering organizations to streamline, visualize, and execute their unique workflows with precision. These process flows serve as intuitive, step-by-step guides that reflect the specific sequences and actions essential to executing various business processes.</p>
+                        <p class="info-txt">For example, in a customer relationship management scenario, a business process flow within Dataverse can guide sales teams through the stages of lead qualification, opportunity management, and deal closure. Each stage can prompt specific actions, such as requesting additional information from a potential client or assigning tasks to team members, ensuring a standardized approach to managing sales pipelines.</p>
+                        <p class="info-txt">Similarly, in a project management context, business process flows can orchestrate tasks from project initiation to completion. This could involve steps like project planning, task assignment, review processes, and final delivery, guaranteeing adherence to established protocols and promoting consistency across different projects.</p>
+                        <p class="info-txt">The ability to align to business processes within Dataverse offers a visual representation of workflows, enabling stakeholders to track progress, identify bottlenecks, and ensure adherence to best practices. This feature not only enhances operational efficiency but also fosters transparency, agility, and consistency in executing diverse business processes.</p>
+                        <div class="center-iframe">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/gzxmCvVTGMo?si=HH6Lz-F7AxOU_bQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Integrate with Power Platform-->
+                <div id="pp-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="./assets/pp.svg" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">The Power Platform's Native Data Store</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">If you're using Power Platform tools like Power Apps, Power Automate, Power Pages, etc., Dataverse is <b>the best</b> data store to use.</p>
+                        <p class="info-txt">Dataverse serves as the ultimate data hub seamlessly integrating with the suite of Power Platform tools—Power Apps, Power Automate, Power Pages, Power BI, and more—creating a dynamic ecosystem for data management, automation, and analysis. Its versatility and sturdy architecture make it the prime choice for unlocking the full potential of Power Platform tools.</p>
+                        <p class="info-txt">With Power Apps, Dataverse's data repository becomes easily accessible, empowering users to swiftly craft custom applications without compromising data integrity. Likewise, Power Automate seamlessly connects to Dataverse, enabling automated workflows triggered by data changes or specific events, streamlining processes and boosting productivity.</p>
+                        <p class="info-txt">The direct integration of Dataverse with Power BI allows for real-time data analysis, fostering informed decision-making through compelling visualizations and reports. This unified hub ensures consistency, security, and reliability across the Power Platform, unleashing the power of data to drive innovation and efficiency throughout an organization's operations.</p>
+                        <div class="center-iframe">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/kxxEC1xH9sI?si=1P8hJ8BpHbmiBsUa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div> 
+                    </div>
+                </div>
+        
+                <!--Integrate with Data Flows-->
+                <div id="df-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/Tnyjz8h.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Easy ETL with Dataflows</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Dataflows are a self-service, cloud-based, data preparation technology. Dataflows enable customers to ingest, transform, and load data into Microsoft Dataverse environments, Power BI workspaces, or your organization's Azure Data Lake Storage account.</p>
+                        <p class="info-txt">Dataflows are authored by using Power Query, a unified data connectivity and preparation experience already featured in many Microsoft products, including Excel and Power BI. Customers can trigger dataflows to run either on demand or automatically on a schedule; data is always kept up to date.</p>
+                        <div class="center-iframe">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/POrYpaoNjBM?si=g3OP_urX2e8K_y2T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Integrate with Azure Synapse-->
+                <div id="as-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/DM08QWQ.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Azure Synapse Link</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">The native integration between Dataverse and Azure Synapse empowers organizations to extract deeper insights and drive informed decisions from their data. This seamless integration harnesses the robust analytical capabilities of Azure Synapse, a powerful analytics service, to efficiently process and analyze vast datasets stored in Dataverse.</p>
+                        <p class="info-txt">By leveraging Azure Synapse's advanced analytics, machine learning, and data warehousing capabilities, users gain the ability to perform complex analytics, predictive modeling, and run high-performance queries directly on the data residing in Dataverse. This direct access and integration enable businesses to derive actionable insights, uncover hidden patterns, and perform sophisticated analyses, enhancing decision-making processes.</p>
+                        <p class="info-txt">The integration allows for the creation of comprehensive data pipelines, enabling the transformation and movement of data between Dataverse and Azure Synapse seamlessly. This collaborative environment streamlines data management, ensures data consistency, and provides a unified platform for both transactional and analytical workloads, fostering a more holistic approach to data-driven strategies within organizations. Ultimately, this synergy between Dataverse and Azure Synapse empowers businesses to unlock the full potential of their data, driving innovation, optimizing operations, and gaining a competitive edge in today's data-driven landscape.</p>
+                        <div class="center-iframe">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/jjdNY95y9v0?si=Y59ZRLq8Nm77pkts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!--AI Builder-->
+                <div id="ai-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="./assets/ai_builder.svg" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Embed AI with AI Builder</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Integration with the Power Platform's AI suite, AI Builder, allows businesses to leverage state-of-the-art AI algorithms and machine learning models to extract invaluable intelligence from the wealth of data stored within Dataverse.</p>
+                        <p class="info-txt">By harnessing AI against Dataverse data, organizations can uncover intricate patterns, predict trends, and derive actionable insights that were previously inaccessible. These AI models can perform complex analyses, such as sentiment analysis, predictive maintenance, customer behavior forecasting, or personalized recommendations, unlocking new avenues for innovation and efficiency across diverse industries.</p>
+                        <p class="info-txt">The integration enables the automation of repetitive tasks and the augmentation of decision-making processes. AI models can automate workflows, streamline operations, and even assist in the identification of anomalies or opportunities within the data, enhancing overall efficiency and enabling proactive strategies.</p>
+                        <div class="center-iframe">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/F7JU14eVpLg?si=seZUZbFwz-m9yov2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Entra ID-->
+                <div id="eid-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/ZlINaY9.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Build People-Centric Applications with Azure Entra ID</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Dataverse natively integrates with Azure Entra ID out of the box, empowering businesses to create people-centric applications that harness the wealth of rich data stored in their Entra ID instances. This integration opens up a world of possibilities by allowing organizations to leverage user-centric information such as profiles, roles, permissions, and group memberships within the applications built on Dataverse.</p>
+                        <p class="info-txt">By tapping into Entra ID's robust identity management capabilities, businesses can develop applications that are inherently people-driven, tailoring user experiences based on roles, access rights, and personalized preferences. This facilitates the creation of dynamic and adaptive applications that cater specifically to individual users or groups, enhancing user engagement and productivity.</p>
+                        <p class="info-txt">The integration enables seamless authentication and access control, ensuring secure and compliant usage of applications built on Dataverse. It facilitates single sign-on (SSO) experiences, simplifying user access across different applications while maintaining security standards and governance protocols defined within Entra ID.</p>
+                        <p class="info-txt">This integration of Dataverse with Entra ID unlocks the potential to build sophisticated, user-centric applications that utilize the rich data stored in Entra ID, fostering enhanced user experiences, stronger security measures, and more efficient workflows within organizations.</p>
+                        <p class="info-txt" style="text-align: center;"><a href="https://www.microsoft.com/en-in/security/business/identity-access/microsoft-entra-id" target="_blank">Read more about Azure Entra ID's capabilities you can use within Power Platform</a></p>
+                    </div>
+                </div>
+
+                <!--Performance-->
+                <div id="perf-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/L9o0T65.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Built for Performance</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Dataverse liberates organizations from the intricate complexities of query optimization and performance tuning. Its architecture is finely tuned to handle vast volumes of data efficiently, ensuring swift and seamless operations without the need for exhaustive manual optimizations.</p>
+                        <p class="info-txt">By relieving businesses from the burdens of query tuning and performance optimization, Dataverse empowers teams to focus their energy and resources on strategic initiatives, innovation, and deriving actionable insights from their data. This means teams can redirect efforts towards enhancing applications, fostering innovation, and refining business processes rather than grappling with fine-tuning queries or database performance.</p>
+                        <p class="info-txt">The inherent performance capabilities of Dataverse ensure consistent and reliable operations, facilitating smoother workflows, faster data access, and responsive applications. This reliability contributes to improved productivity, reduced downtime, and a more agile operational environment, enabling organizations to stay focused on delivering value to their customers and stakeholders.</p>
+                    </div>
+                </div>
+
+                <!--Scalability-->
+                <div id="scale-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/8LOXBvD.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Built for Scalability</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Dataverse is designed to cater to diverse scaling needs, accommodating projects ranging from small team-based endeavors to mission-critical applications deployed across entire organizations. Its inherent scalability offers a flexible infrastructure capable of adapting seamlessly to varying demands, whether it's a small-scale project requiring streamlined collaboration or an enterprise-level application necessitating robust data management and reliability.</p>
+                        <p class="info-txt">Regardless of the project scope, Dataverse's architecture empowers users to scale resources and functionalities effortlessly, ensuring that applications evolve alongside business growth. Its adaptability allows teams to expand datasets, functionalities, and user bases without compromising performance or stability.</p>
+                        <p class="info-txt">The trust bestowed upon Dataverse by global giants like Coca-Cola and Schlumberger underscores its enterprise-grade capabilities. These industry leaders rely on Dataverse's robustness, security, and scalability to drive innovation, streamline operations, and meet the complex needs of their vast organizations.</p>
+                        <p class="info-txt" style="text-align: center;"><a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/why-dataverse-overview#availability-and-scalability" target="_blank">Read more about Dataverse's Scalability</a></p>
+                    </div>
+                </div>
+
+                <!--Auditing-->
+                <div id="audit-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/JKQwNhP.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Out-of-the-box Audit Capabilities</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Dataverse redefines data governance with its robust out-of-the-box auditing capabilities, offering unparalleled transparency and control over data activities. This feature empowers organizations to effortlessly track and monitor every change, access, or modification made to their data within the platform.</p>
+                        <p class="info-txt">The auditing functionality in Dataverse provides comprehensive logs and records, detailing who accessed the data, what changes were made, and when these modifications occurred. This level of granular insight into data operations not only ensures compliance with regulatory standards but also fosters a secure and accountable data environment.</p>
+                        <p class="info-txt">From tracking user interactions to documenting data modifications, Dataverse's auditing capabilities enable organizations to maintain a clear audit trail, mitigate risks, and swiftly address any discrepancies or security concerns. This level of transparency instills confidence in data governance practices and facilitates proactive decision-making across the organization.</p>
+                        <div class="center-iframe">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/OX5rpRA1ofQ?si=lZxpH7ICD6fLtRm3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!--API-->
+                <div id="api-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/qO38sTO.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Dataverse's Robust Web API (REST)</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Dataverse's highly performant Web API is a developer's gateway to seamlessly transact with Dataverse data from custom-code applications, offering a robust foundation for unparalleled integration possibilities. Powered by the widely-adopted OData protocol, this API ensures standardized access to Dataverse's rich datasets, allowing developers to interact with data effortlessly, regardless of the platform or language used.</p>
+                        <p class="info-txt">One of the key advantages of Dataverse's Web API is its performance, enabling swift and efficient data operations. Developers can leverage this high-performing API to execute complex queries, perform data manipulations, and retrieve extensive datasets, ensuring optimal responsiveness for custom applications.</p>
+                        <p class="info-txt">The implementation of the OData protocol not only ensures consistency and compatibility but also expands the API's capabilities. Developers can access rich metadata, facilitating a deeper understanding of data structures and relationships within Dataverse, empowering them to build tailored solutions that align perfectly with the organization's data model.</p>
+                        <p class="info-txt">By granting developers the ability to transact with Dataverse data from custom-code applications via this robust API, Dataverse enables the creation of sophisticated, integrated ecosystems. This capability drives innovation, streamlines workflows, and empowers organizations to harness the full potential of their data across diverse software landscapes.</p>
+                        <p class="info-txt" style="text-align: center;"><a href="https://timhanewich.medium.com/dataverse-web-api-101-97e4099ff10b" target="_blank">Read more about the Dataverse Web API</a></p>
+                    </div>
+                </div>
+
+                <!--Transparency-->
+                <div id="transparency-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/rE7VIK2.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Unparalleled Transparency for Administrators</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Dataverse provides administrators with a comprehensive oversight toolkit, known as the <b>Power Platform Admin Center (PPAC)</b>, empowering them with transparent insights into every facet of their environments. From monitoring active users leveraging Dataverse to tracking applications interacting with the platform, administrators have a granular view of the ecosystem's activity.</p>
+                        <p class="info-txt">This transparency extends to detailed analytics, revealing the frequency and nature of data transactions. Administrators can track the number of queries over specific periods, API pass rates, and gain nuanced insights into table utilization and operations. This depth of analytics not only facilitates proactive decision-making but also enables fine-tuning of resources to optimize performance.</p>
+                        <p class="info-txt">Dataverse provides administrators with the ability to discern usage patterns by device types, providing crucial information about the preferred endpoints accessing the data. This level of visibility allows for strategic planning, ensuring the environment aligns with user preferences and operational requirements.</p>
+                        <div class="center-iframe">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/PV4ortF3hR8?si=4XOk1r7lEEiE5CMX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Governance-->
+                <div id="gov-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/clP8rDm.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Easily Implement Governance</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Dataverse's governance capabilities extend into controlling solution development within Power Apps and Power Automate by leveraging its robust security roles. These capabilities empower organizations to enforce fine-grained controls over who can create, modify, or access solutions within the Power Platform ecosystem.</p>
+                        <p class="info-txt">By integrating Dataverse security roles into solution development, administrators can precisely define permissions and access levels for individuals or groups involved in app or workflow creation. This ensures that only authorized users with the requisite privileges can design or manipulate solutions, maintaining data integrity and security throughout the development lifecycle.</p>
+                        <p class="info-txt">Dataverse's governance advantages in solution development enable organizations to establish role-based policies that align with their data governance frameworks. Administrators can dictate which entities, fields, or records a user or team can access or modify within their solutions, ensuring compliance and adherence to established data governance protocols.</p>
+                        <div class="center-iframe">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/t0xUmfjp3Do?si=B-zwjKP2gCZIgshF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!--ALM-->
+                <div id="alm-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src="https://i.imgur.com/xO9jsA2.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Application Lifecycle Management</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Dataverse serves as a catalyst for fostering a healthy development and application lifecycle management (ALM) environment, offering specialized tools like Solutions and Power Platform Pipelines. These features enable streamlined and structured approaches to designing, deploying, and managing applications within the Power Platform ecosystem.</p>
+                        <p class="info-txt"><b>Solutions</b> within Dataverse encapsulate various components, such as apps, flows, entities, and dashboards, into manageable units. This modular approach facilitates controlled development, allowing teams to work collaboratively on different aspects of the solution while maintaining version control. It ensures a structured ALM process, enabling efficient migration of changes across different environments, from development to testing and production.</p>
+                        <p class="info-txt"><b>Power Platform Pipelines</b>, built on Dataverse, provide a visual and automated way to orchestrate deployment and release processes. By leveraging Pipelines, organizations can define and automate complex release workflows, ensuring seamless and controlled movement of solutions and data across environments. This automation minimizes errors, accelerates deployment cycles, and maintains consistency throughout the ALM journey.</p>
+                        <div class="center-iframe">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ryjImcByFl4?si=I6LoAVw5I4atitVW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Accessibility-->
+                <div id="accessibility-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src=https://i.imgur.com/ciqflmC.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Build for Everyone</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Dataverse's model-driven capabilities are inherently designed to champion accessibility, aligning seamlessly with the latest standards such as the <b>Web Content Accessibility Guidelines (WCAG)</b>, <b>Section 508</b>, <b>ADA</b>, and more. Crafted by Microsoft, these features prioritize inclusivity from the ground up, ensuring that applications built on Dataverse are inherently accessible to users of diverse abilities.</p>
+                        <p class="info-txt">Adhering to global accessibility standards, Dataverse's model-driven approach guarantees a user-frindly, accessible experience for all individuals. Its interface, controls, and functionalities are thoughtfully crafted to accommodate assistive technologies, enabling users with disabilities to navigate, interact, and derive value from applications with ease.</p>
+                        <p class="info-txt">Microsoft's commitment to accessibility ensures that Dataverse's model-driven capabilities undergo rigorous testing and compliance checks, fostering an inclusive environment where accessibility isn't an afterthought but an integral part of the platform's DNA. By meeting these stringent accessibility standards, Dataverse empowers organizations to build applications that cater to a broader audience, fostering equal access and participation for all users.</p>
+                        <p class="info-txt" style="text-align: center;"><a href="https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/accessible-apps" target="_blank">Learn how you can create acessible apps with Power Apps</a></p>
+                    </div>
+                </div>
+                
+                <!--Elastic Tables-->
+                <div id="et-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src=https://i.imgur.com/6Jczwjk.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Elastic Tables</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Powered by Azure Cosmos DB, <b>Elastic Tables</b> within Dataverse presents a robust solution for developers seeking flexible, scalable, and high-performance data management. Elastic Tables seamlessly accommodate the dynamic nature of unstructured or semi-structured data, catering to applications with unpredictable, rapidly growing workloads or sporadic spikes in demand.</p>
+                        <p class="info-txt">Elastic Tables allow you to achieve:</p>
+                        <p class="info-txt"><b>Horizontal Scaling and Performance</b>: Elastic Tables automatically scale horizontally within Azure Cosmos DB, efficiently handling vast data volumes and high throughput with minimal latency. This scalability suits applications facing unpredictable or fluctuating workloads.</p>
+                        <p class="info-txt"><b>High Volume Read-Write Operations</b>: Elastic Tables excel in managing a high influx of read and write requests, ensuring consistent performance even during peak usage periods.</p>
+                        <p class="info-txt"><b>Customizable Partitioning</b>: Leveraging Azure Cosmos DB partitioning, Elastic Tables enable efficient scaling of individual tables based on a defined partitioning strategy. This strategy ensures optimized performance tailored to the specific requirements of an application.</p>
+                        <p class="info-txt" style="text-align: center;"><a href="https://learn.microsoft.com/en-us/power-apps/developer/data-platform/elastic-tables" target="_blank">Learn more about Elastic Tables</a></p>
+                    </div>
+                </div>
+
+                <!--Plug-Ins-->
+                <div id="plug-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src=https://i.imgur.com/izgj7o2.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Plug-ins</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Plug-ins serve as tools for extending the capabilities of Microsoft Dataverse, enabling developers to customize and augment data processing behaviors. Plug-ins allow for:</p>
+                        <p class="info-txt"><b>Customization</b>: When standard out-of-the-box solutions fall short, plug-ins step in to fill the gap. They provide unparalleled flexibility to adapt and meet complex business requirements that native functionalities might not address adequately.</p>
+                        <p class="info-txt"><b>Power and Flexibility</b>: Plug-ins empower skilled developers to leverage their expertise, allowing them to directly interact with Dataverse, organizational web services, and external systems through code. This proficiency enables tailored solutions and enhances productivity.</p>
+                        <p class="info-txt"><b>Performance</b>: Well-crafted plug-ins offer highly efficient ways to implement custom business logic, ensuring optimal performance. They execute swiftly, enhancing system responsiveness and user experience.</p>
+                        <p class="info-txt" style="text-align: center;"><a href="https://learn.microsoft.com/en-us/power-apps/developer/data-platform/plug-ins" target="_blank">Learn more about Dataverse Plug-ins</a></p>
+                    </div>
+                </div>
+
+                <!--Webhooks-->
+                <div id="webhook-info" class="info-pane" style="display: none;">
+                    <div class="img-header">
+                        <img src=https://i.imgur.com/izgj7o2.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <h2 class="info-pane-title">Webhooks</h2>
+                    <div class="info-txt-container">
+                        <p class="info-txt">Dataverse's webhook service offers a range of advantages for seamless integration and event-driven operations with external services.</p>
+                        <p class="info-txt">With webhooks, you can subscribe your applications and services to immediate communication about events occurring in your Dataverse environment. Dataverse will instantly notify your systems or applications about changes or specific occurrences within the database.</p>
+                        <p class="info-txt" style="text-align: center;"><a href="https://learn.microsoft.com/en-us/power-apps/developer/data-platform/use-webhooks" target="_blank">Learn more about Dataverse's Webhook Service</a></p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!--Right panel-->
+            <div class="right-panel">
+
+                <!--SECURITY-->
+                <div class="topic-category" style="background-color: #E8FFE0;">
+                    <h3 class="topic-category-title">WORLD CLASS SECURITY</h3>
+
+                    <div class="topics">
+
+                        <!--Role-based security-->
+                        <div id="rbsm" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/9iIfiWv.png">
+                                </div>
+                                <h2 class="topic-title">Role-Based Security Model</h2>
+                            </div>
+                        </div>
+    
+                        <!--Granular Control (field-level, record-level, etc.)-->
+                        <div id="gc" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/lsiBeu0.png">
+                                </div>
+                                <h2 class="topic-title">Granular Control</h2>
+                            </div>
+                        </div>
+
+                        <!--All behind Azure AD-->
+                        <div id="beid" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/ZlINaY9.png">
+                                </div>
+                                <h2 class="topic-title">Behind Entra ID</h2>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--RELATIONAL DB FOR BUSINESS-->
+                <div class="topic-category" style="background-color: #EBFEE5;">
+                    <h3 class="topic-category-title">BUILT FOR BUSINESS NEEDS</h3>
+
+                    <div class="topics">
+
+                        <!--Relational data-->
+                        <div id="rtd" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/TOG4xYT.png">
+                                </div>
+                                <h2 class="topic-title">Relational Tabular Data</h2>
+                            </div>
+                        </div>
+    
+                        <!--BLOB data-->
+                        <div id="ud" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/7GaW8Qd.png">
+                                </div>
+                                <h2 class="topic-title">Unstructured Data</h2>
+                            </div>
+                        </div>
+    
+                        <!--Rich Metadata-->
+                        <div id="rm" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/xXMTLkj.png">
+                                </div>
+                                <h2 class="topic-title">Rich Metadata</h2>
+                            </div>
+                        </div>
+                    
+                        <!--Common Data Model-->
+                        <div id="cdm" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/AXP4Jf5.png">
+                                </div>
+                                <h2 class="topic-title">Common Data Model</h2>
+                            </div>
+                        </div>
+    
+                        <!--Business rules + data validation-->
+                        <div id="br" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/uwBgWIA.png">
+                                </div>
+                                <h2 class="topic-title">Business Rules</h2>
+                            </div>
+                        </div>
+
+                        <!--Business process flows-->
+                        <div id="bpf" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/VdjhCr6.png">
+                                </div>
+                                <h2 class="topic-title">Align to Processes</h2>
+                            </div>
+                        </div>
+
+                        <!--Plugins-->
+                        <div id="plug" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/izgj7o2.png">
+                                </div>
+                                <h2 class="topic-title">Plug-ins</h2>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+                <!--SUITE OF INTEGRATIONS-->
+                <div class="topic-category" style="background-color: #EFFEEB;">
+                    <h3 class="topic-category-title">A SUITE OF INTEGRATIONS</h3>
+
+                    <div class="topics">
+
+                        <!--Power Platform-->
+                        <div id="pp" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="./assets/pp.svg">
+                                </div>
+                                <h2 class="topic-title">Power Platform</h2>
+                            </div>
+                        </div>
+    
+                        <!--Data flows-->
+                        <div id="df" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/Tnyjz8h.png">
+                                </div>
+                                <h2 class="topic-title">Data Flows</h2>
+                            </div>
+                        </div>
+    
+                        <!--Integration with Azure Synapse-->
+                        <div id="as" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/DM08QWQ.png">
+                                </div>
+                                <h2 class="topic-title">Azure Synapse</h2>
+                            </div>
+                        </div>
+
+                        <!--AI Builder-->
+                        <div id="ai" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="./assets/ai_builder.svg">
+                                </div>
+                                <h2 class="topic-title">AI Builder</h2>
+                            </div>
+                        </div>
+                    
+                        <!--Entra ID-->
+                        <div id="eid" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/ZlINaY9.png">
+                                </div>
+                                <h2 class="topic-title">Entra ID</h2>
+                            </div>
+                        </div>
+    
+                        <!--Elastic Tables-->
+                        <div id="et" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/6Jczwjk.png">
+                                </div>
+                                <h2 class="topic-title">Elastic Tables</h2>
+                            </div>
+                        </div>
+
+                        <!--Webhooks-->
+                        <div id="webhook" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/Nv967hs.png">
+                                </div>
+                                <h2 class="topic-title">Webhooks</h2>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <!--Freedom from middle layer-->
+                <div class="topic-category" style="background-color: #F2FDF0;">
+                    <h3 class="topic-category-title">FREEDOM FROM MANAGEMENT AND OPTIMIZATION</h3>
+
+                    <div class="topics">
+
+                        <!--Performance-->
+                        <div id="perf" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/L9o0T65.png">
+                                </div>
+                                <h2 class="topic-title">Performance</h2>
+                            </div>
+                        </div>
+
+                        <!--Scalability-->
+                        <div id="scale" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/8LOXBvD.png">
+                                </div>
+                                <h2 class="topic-title">Scalability</h2>
+                            </div>
+                        </div>
+    
+                        <!--Auditing-->
+                        <div id="audit" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/JKQwNhP.png">
+                                </div>
+                                <h2 class="topic-title">Auditing</h2>
+                            </div>
+                        </div>
+
+    
+                        <!--Robust API-->
+                        <div id="api" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/qO38sTO.png">
+                                </div>
+                                <h2 class="topic-title">Robust API</h2>
+                            </div>
+                        </div>                 
+                        
+
+
+                    </div>
+                </div>
+
+
+                <!--Promote healthy development-->
+                <div class="topic-category" style="background-color: #F5FCF5;">
+                    <h3 class="topic-category-title">PROMOTE HEALTHY DEVELOPMENT</h3>
+
+                    <div class="topics">
+
+                        <!--Visibility-->
+                        <div id="transparency" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/rE7VIK2.png">
+                                </div>
+                                <h2 class="topic-title">Transparency</h2>
+                            </div>
+                        </div>
+
+                        <!--Governance-->
+                        <div id="gov" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/clP8rDm.png">
+                                </div>
+                                <h2 class="topic-title">Governance</h2>
+                            </div>
+                        </div>
+
+                        <!--ALM-->
+                        <div id="alm" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/xO9jsA2.png">
+                                </div>
+                                <h2 class="topic-title">ALM</h2>
+                            </div>
+                        </div>
+
+                        <!--Accessibility-->
+                        <div id="accessibility" class="topic">
+                            <div class="topic-cover">
+                                <div class="icon-container">
+                                    <img src="https://i.imgur.com/ciqflmC.png">
+                                </div>
+                                <h2 class="topic-title">Accessibility</h2>
+                            </div>
+                        </div>
+             
+                        
+
+
+                    </div>
+                </div>
+
+
+                
+            </div>
+
+        </div>
+
+        
+    
+        
+
+
+        <script>
+
+            function fadeIn(div_id)
+            {
+                $("#" + div_id).fadeIn(1000);
+            }
+
+            $(document).ready(function() 
+            {
+
+                //Show welcome info & hide all other panes
+                $(".info-pane").css("display", "none"); //Hide all panes
+                $("#why-dataverse-intro").css("display", ""); //Show why dataverse intro
+
+
+                //Highlight on mouse over
+                $(".topic").mouseover(function() 
+                {
+                    $(this).css("background-color", "#FDFFA5");
+                });
+
+                //Unhighlight once mouse leaves
+                $(".topic").mouseout(function() 
+                {
+                    $(this).css("background-color", "azure");
+                });
+
+                //Handle showing info pane
+                $(".topic").each(function()
+                {
+                    $(this).click(function()
+                    {
+
+                        //Hide all
+                        $(".info-pane").css("display", "none");
+
+                        //Get the ID of what was clicked on and what the ID of the corresponding Info pane should be
+                        var clickedControlId = $(this).attr("id");
+                        var TileInfoID = clickedControlId + "-info"; //the naming convention I used is every info pane that corresponds to a topic tile has "-info" appended to the end.
+
+                        //If there is a div with an ID that matches the TileInfoID, fade in. If not, just fade in the intro pane.
+                        if ($("#" + TileInfoID).length)
+                        {
+                            fadeIn(TileInfoID);
+                        }
+                        else
+                        {
+                            fadeIn("why-dataverse-intro");
+                        }
+
+                        
+                    });
+                });
+
+            })
+
+        </script>
+
+    </body>
+</html>
